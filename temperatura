@@ -1,0 +1,31 @@
+ void temp::cel_f()
+       {
+       cout<<"\n   Celsius= ";
+       cin>>i;
+        cout<<"\n   Fahrenheit= " <<(((9*i)/5)+32);
+       }
+    void temp::f_cel()
+       {
+       cout<<"\n   Fahrenheit= ";   cin>>i;
+       cout<<"\n   Celsius= "<<(((i-32)/9)*5);
+        }
+    void temp::cel_k()
+        {
+        cout<<"\n   celsius= ";cin>>i;
+        cout<<"\n   kelvin= "<<i+273;
+        }
+    void temp::k_cel()
+        {
+        cout<<"\n   kelvin= ";  cin>>i;
+        cout<<"\n   celsius= "<<i-273;
+        }
+    void temp::f_k()
+        {
+        cout<<"\n   Fahrenheit= ";  cin>>i;
+        cout<<"\n   Kelvin= "<<(i+459.67)*5/9;
+        }
+    void temp::k_f()
+    {
+        cout<<"\n   Kelvin="; cin>>i;
+        cout<<"\n   Fahrenheit="<<i*9/5-459.67;
+    }
