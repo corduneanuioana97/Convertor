@@ -1,0 +1,105 @@
+void lungime ::mm_m()
+         {
+          cout<<"\n   Millimeter= ";
+          cin>>i;
+          cout<<"\n   Meter= "<<i*.001;
+          }
+     void lungime ::m_mm()
+         {
+         cout<<"\n   metri= ";
+         cin>>i;
+         cout<<"\n   millimetri= "<<i*1000;
+         }
+     void lungime ::cm_m()
+         {
+          cout<<"\n   Centimetri= ";
+          cin>>i;
+          cout<<"\n   Metri= "<<i*.01;
+          }
+    void lungime ::m_cm()
+        {
+         cout<<"\n   metri= ";
+         cin>>i;
+         cout<<"\n   cm= "<<i*100;
+         }
+    void lungime::m_mile()
+         {
+         cout<<"\n   metri= ";
+         cin>>i;
+         cout<<"\n   mile= "<<i*.00062;
+         }
+    void lungime::mile_m()
+        {
+        cout<<"\n   mile= ";
+        cin>>i;
+        cout<<"\n   metri= "<<i*1609.344;
+        }
+     void lungime :: cm_km()
+        {
+         cout<<"\n   cm= ";
+         cin>>i;
+         cout<<"\n   km= "<<i*0.00001;
+
+        }
+
+    void lungime :: km_cm()
+        {   cout<<"\n   km= ";
+           cin>>i;
+           cout<<"\n   cm= "<<i*100000;
+        }
+    void lungime::feet_m()
+        {
+        cout<<"\n   feet= ";
+        cin>>i;
+        cout<<"\n   metri= "<<i*.3048;
+        }
+    void lungime::m_feet()
+        {
+        cout<<"\n   metri= ";
+        cin>>i;
+        cout<<"\n   feet= "<<i*3.28084;
+        }
+    void lungime::yard_m()
+        {
+        cout<<"\n   yard= ";
+        cin>>i;
+        cout<<"\n   metri= " <<i*0.9144;
+        }
+    void lungime::m_yard()
+        {
+        cout<<"\n   metri= ";
+        cin>>i;
+        cout<<"\n   yard= "<<i*1.09361;
+        }
+    void lungime::inch_m()
+        {
+        cout<<"\n   inch=";
+        cin>>i;
+        cout<<"\n   metri="<<i*.0254;
+        }
+    void lungime::m_inch()
+        {
+        cout<<"\n   metri=";
+        cin>>i;
+        cout<<"\n   inch="<<i*39.37008;
+        }
+    void lungime ::km_mile()
+        {
+        cout<<"\n   kilometri=";cin>>i;
+        cout<<"\n   mile="<<i*.6213712 ;
+        }
+    void lungime ::mile_km( )
+        {
+        cout<<"\n   mile="; cin>>i;
+        cout<<"\n   kilometri="<<i*1.60934;
+        }
+    void lungime ::m_nmi( )
+    {
+        cout<<"\n   metri="; cin>>i;
+        cout<<"\n   mile nautice="<<i*0.0005399568;
+    }
+    void lungime ::nmi_m( )
+    {
+        cout<<"\n   mile nautice="; cin>>i;
+        cout<<"\n   metri="<<i*1852;
+    }
