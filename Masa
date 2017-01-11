@@ -1,0 +1,60 @@
+void greutate::milligm_gm()
+        {
+        cout<<"\n   miligrame= ";cin>>i;
+        cout<<"\n   grame= "<<i*.001;
+        }
+    void greutate::gm_milligm()
+        {
+        cout<<"\n   grame= "; cin>>i;
+        cout<<"\n   miligrame= "<<i*1000;
+        }
+    void greutate::pound_kg()
+       {
+       cout<<"\n   pound= "; cin>>i;
+       cout<<"\n   kilograme= "<<i*.45359;
+       }
+     void greutate::gm_kg()
+        { cout<<"\n   Grame= ";cin>>i;
+         cout<<"\n   kilograme= "<<i*.001;
+         }
+     void greutate::kg_gm()
+    {    cout<<"\n   kilograme= ";cin>>i;
+        cout<<"\n   Grame= "<<i*1000;
+        }
+
+
+    void greutate::kg_pound()
+      {
+      cout<<"\n   kilograme= ";cin>>i;
+      cout<<"\n   pound= "<<2.20462*i;
+      }
+    void greutate::gm_pound()
+      {
+      cout<<"\n   grame= ";  cin>>i;
+      cout<<"\n   pound= "<<i*.0022;
+      }
+    void greutate::pound_gm()
+      {
+      cout<<"\n   pound= "; cin>>i;
+      cout<<"\n   grame= "<<i*453.59237;
+      }
+    void greutate::kg_mton()
+      {
+      cout<<"\n   kilograme= ";cin>>i;
+      cout<<"\n   tone= "<<i*.001;
+       }
+    void greutate::mton_kg()
+      {
+     cout<<"\n   tone= "; cin>>i;
+     cout<<"\n   kilograme= "<<i*1000;
+      }
+    void greutate::gm_ounces()
+    {
+        cout<<"\n   grame= "; cin>>i;
+        cout<<"\n   uncie= "<<i*0.035274;
+    }
+     void greutate::ounces_gm()
+    {
+        cout<<"\n   uncie= "; cin>>i;
+        cout<<"\n   grame= "<<i*28.34952;
+    }
