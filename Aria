@@ -1,0 +1,89 @@
+void aria::mmSq_cmSq()
+        {
+        cout<<"\n   mm patrati= ";cin>>i;
+        cout<<"\n   cm patrati= "<<i*.01;
+        }
+    void aria::cmSq_mmSq()
+        {
+        cout<<"\n   cm patrati= ";cin>>i;
+        cout<<"\n   mm patrati= "<<i*100;
+        }
+    void aria::cmSq_mSq()
+        {
+        cout<<"\n   cm patrati= ";cin>>i;
+        cout<<"\n   m patrati= "<<i*.0001;
+        }
+    void aria::mSq_cmSq()
+        {
+        cout<<"\n   m patrati= "; cin>>i;
+        cout<<"\n   cm patrati= "<<i*10000;
+        }
+    void aria::mSq_kmSq()
+        {
+        cout<<"\n   m patrati= "; cin>>i;
+        cout<<"\n   km patrati= "<<i*.000001;
+        }
+    void aria::kmSq_mSq()
+        {
+        cout<<"\n   km patrati= ";cin>>i;
+        cout<<"\n   m patrati= "<<i*1000000;
+        }
+    void aria::feetSq_mSq()
+      {
+      cout<<"\n   square feet= ";cin>>i;
+      cout<<"\n   m patrati= "<<i*.0929;
+      }
+    void aria::mSq_feetSq()
+      {
+      cout<<"\n   m patrati= ";  cin>>i;
+      cout<<"\n   square feet= "<<i*10.76391;
+      }
+    void aria::yardSq_mSq()
+      {
+      cout<<"\n   square yard= ";cin>>i;
+      cout<<"\n   m patrati= "<<i*.83613;
+      }
+     void aria::mSq_yardSq()
+       {
+        cout<<"\n   m patrati= "; cin>>i;
+        cout<<"\n   square yard= "<<i*1.19599;
+       }
+     void aria::mileSq_kmSq()
+        {
+        cout<<"\n   square mile= ";cin>>i;
+        cout<<"\n   km patrati= "<<i*2.5899;
+        }
+     void aria::kmSq_mileSq()
+        {
+         cout<<"\n   km patrati= " ;cin>>i;
+          cout<<"\n   square mile= "<<i*.3861;
+        }
+     void aria::acre_hect()
+        {
+        cout<<"\n   Acri= ";   cin>>i;
+        cout<<"\n   Hectare= "<<i*.40469;
+        }
+     void aria::hect_acre()
+        {
+        cout<<"\n   Hectare= ";cin>>i;
+        cout<<"\n   Acri= " <<i*2.47105;
+        }
+      void aria::acre_kmSq()
+         {cout<<"\n   Acri= ";cin>>i;
+         cout<<"\n   km patrati= "<<i*.00405;
+         }
+      void aria::kmSq_acre()
+      {
+       cout<<"\n   km patrati= ";cin>>i;
+       cout<<"\n   Acri= "<<i*247.10538;
+       }
+       void aria::mp_ydp()
+      {
+       cout<<"\n   m patrati= ";cin>>i;
+       cout<<"\n   Square Yards= "<<i*1.1960;
+       }
+        void aria::ydp_mp()
+      {
+       cout<<"\n   Square Yards= ";cin>>i;
+       cout<<"\n   m patrati= "<<i/1.1960;
+       }
