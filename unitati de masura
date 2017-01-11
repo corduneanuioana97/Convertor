@@ -1,0 +1,194 @@
+#include<iostream>
+#include<conio.h>
+#include<stdlib.h>
+
+using namespace std;
+
+void clrscr()
+{
+   system("cls");
+}
+
+class input
+{
+  public:
+        double i;
+
+
+
+};
+
+
+
+  class lungime:public input
+  {
+   public:
+       void mm_m();
+       void m_mm();
+       void cm_m();
+       void m_cm();
+       void cm_km();
+       void km_cm();
+       void m_mile();
+       void mile_m();
+       void km_mile();
+       void mile_km();
+       void feet_m();
+       void m_feet();
+       void inch_m();
+       void m_inch();
+       void yard_m();
+       void m_yard();
+       void m_nmi();
+       void nmi_m();
+
+      };
+
+class temp:public input
+ {
+ public:
+       void cel_f();
+       void f_cel();
+       void cel_k();
+       void k_cel();
+       void f_k();
+       void k_f();
+
+  };
+
+  class greutate:public input
+    {
+    public:
+       void milligm_gm();
+       void gm_milligm();
+       void gm_kg();
+       void kg_gm();
+       void kg_mton();
+       void mton_kg();
+       void pound_kg();
+       void kg_pound();
+       void gm_pound();
+       void pound_gm();
+       void gm_ounces();
+       void ounces_gm();
+
+    };
+
+   class aria :public input
+   {
+   public:
+       void mmSq_cmSq();
+       void cmSq_mmSq();
+       void cmSq_mSq ();
+       void mSq_cmSq ();
+       void mSq_kmSq ();
+       void kmSq_mSq ();
+       void feetSq_mSq();
+       void mSq_feetSq();
+       void yardSq_mSq();
+       void mSq_yardSq();
+       void mileSq_kmSq();
+       void kmSq_mileSq();
+       void acre_kmSq();
+       void kmSq_acre();
+       void acre_hect();
+       void hect_acre();
+       void mp_ydp();
+       void ydp_mp();
+        };
+
+   class vol:public input
+   {
+   public:
+       void mL_L();
+       void L_mL();
+       void mmQ_cmQ();
+       void cmQ_mmQ();
+       void cmQ_mQ ();
+       void mQ_cmQ ();
+       void inchQ_mQ();
+       void mQ_inchQ();
+       void feetQ_mQ();
+       void mQ_feetQ();
+       void mQ_gallon();
+       void gallon_mQ();
+       void L_gallon();
+       void gallon_L();
+
+   };
+   class  timp:public input
+   {
+   public:
+       void ore_min();
+       void min_ore();
+       void min_sec();
+       void sec_min();
+       void ore_sec();
+       void sec_ore();
+       void zile_min();
+       void zile_ore();
+       void zile_sec();
+       void min_zile();
+       void ore_zile();
+       void sec_zile();
+   };
+   class viteza:public input
+   {
+   public:
+    void kmh_mh();
+    void mh_kmh();
+    void kmh_kms();
+    void kms_kmh();
+    void kmh_fth();
+    void fth_kmh();
+    void kmh_milh();
+    void milh_kmh();
+    void kmh_ydh();
+    void ydh_kmh();
+   };
+
+   class energie: public input
+   {
+       public:
+           void j_cal();
+           void cal_j();
+           void j_kj();
+           void kj_j();
+           void j_btu();
+           void btu_j();
+           void cal_kcal();
+           void kcal_cal();
+           void btu_cal();
+           void cal_btu();
+   };
+
+   class densitate: public input{
+       public:
+           void kg_g();
+           void g_kg();
+           void kg_lb();
+           void kg_oz();
+           void oz_g();
+           void oz_kg();
+           void lb_kg();
+           void lb_g();
+           void lb_oz();
+           void oz_lb();
+
+   };
+
+   class presiune: public input{
+       public:
+            void atm_bar();
+           void atm_Pa();
+           void atm_mmhg();
+           void bar_atm();
+           void bar_mmhg();
+           void bar_Pa();
+           void Pa_bar();
+           void Pa_atm();
+           void Pa_mmhg();
+           void mmhg_Pa();
+           void mmhg_atm();
+           void mmhg_bar();
+   };
