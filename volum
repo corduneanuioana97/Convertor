@@ -1,0 +1,70 @@
+void vol::mL_L()
+         {
+         cout<<"\n   mililitru= ";cin>>i;
+         cout<<"\n   Litru= "<<i*.001;
+         }
+      void vol::L_mL()
+         {         cout<<"\n   Litru= "; cin>>i;
+         cout<<"\n   mililitru= "<<i*1000;
+         }
+     void vol::cmQ_mmQ()
+         {
+          cout<< "\n   cm cubi= "; cin>>i;
+          cout<<"\n   mm cubi= "<<i*1000;
+          }
+     void vol::mmQ_cmQ()
+         {
+         cout<<"\n   mm cubi= ";   cin>>i;
+         cout<<"\n   cm cubi= "<<i*.001;
+         }
+     void vol::cmQ_mQ()
+        {
+        cout<<"\n   cm cubi= ";  cin>>i;
+        cout<<"\n   m cubi= "<<i*.000001;
+        }
+     void vol::mQ_cmQ()
+        {
+        cout<<"\n   m cubi= "; cin>>i;
+        cout<<"\n   cm cubi= "<<i*1000000;
+        }
+     void vol::inchQ_mQ()
+       {
+       cout<<"\n   cubic inch= ";  cin>>i;
+       cout<<"\n   m cubi= "<<i*.00002;
+       }
+     void vol::mQ_inchQ()
+       {
+       cout<<"\n   m cubi= "; cin>>i;
+       cout<<"\n   cubic inch= "<<i*61023.74409;
+       }
+     void vol::feetQ_mQ()
+      {
+       cout<<"\n   cubic feet= "; cin>>i;
+       cout<<"\n   m cubi= "<<i*1222 ;
+
+      }
+     void vol::mQ_feetQ()
+       {
+       cout<<"\n   m cubi= ";cin>>i;
+       cout<<"\n   cubic feet= "<<i*123;
+       }
+     void vol::mQ_gallon()
+       {
+       cout<<"\n   m cubi= ";cin>>i;
+       cout<<"\n   galon= "<<i*264.17205;
+       }
+     void vol::gallon_mQ()
+       {
+       cout<<"\n   Galon= "; cin>>i;
+       cout<<"\n   m cubi= "<<i*.00379;
+       }
+     void vol::L_gallon()
+        {
+        cout<<"\n   Litru= ";cin>>i;
+        cout<<"\n   galon= "<<i*.21997;
+        }
+    void vol::gallon_L()
+        {
+        cout<<"\n   Galon= "; cin>>i;
+        cout<<"\n   Litru= "<<i*4.54609;
+        }
