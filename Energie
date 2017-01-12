@@ -1,0 +1,50 @@
+void energie::j_cal()
+    {
+        cout<<"Energia in Jouli="; cin>>i;
+        cout<<"Energia in calorii="<<i*0.23884;
+    }
+    void energie::cal_j()
+    {
+        cout<<"Energia in calorii="; cin>>i;
+        cout<<"Energia in Jouli="<<i/0.23884;
+    }
+    void energie::j_kj()
+    {
+        cout<<"Energia in Jouli="; cin>>i;
+        cout<<"Energia in KiloJouli="<<i*1000;
+    }
+    void energie::kj_j()
+    {
+        cout<<"Energia in KiloJouli="; cin>>i;
+        cout<<"Energia in Jouli="<<i/1000;
+    }
+    void energie::j_btu()
+    {
+        cout<<"Energia in Jouli="; cin>>i;
+        cout<<"Energia in BTU="<<i*0.0009478;
+    }
+    void energie::btu_j()
+    {
+        cout<<"Energia in Jouli="; cin>>i;
+        cout<<"Energia in BTU="<<i/0.0009478;
+    }
+    void energie::cal_kcal()
+    {
+        cout<<"Energia in calorii="; cin>>i;
+        cout<<"Energia in Kilocalorii="<<i*1000;
+    }
+    void energie::kcal_cal()
+    {
+        cout<<"Energia in Kilocalorii="; cin>>i;
+        cout<<"Energia in calorii="<<i/1000;
+    }
+    void energie::btu_cal()
+    {
+        cout<<"Energia in BTU="; cin>>i;
+        cout<<"Energia in calorii="<<i*251.99;
+    }
+     void energie::cal_btu()
+    {
+        cout<<"Energia in BTU="; cin>>i;
+        cout<<"Energia in calorii="<<i/251.99;
+    }
