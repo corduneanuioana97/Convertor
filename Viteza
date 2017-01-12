@@ -1,0 +1,50 @@
+void viteza::fth_kmh()
+    {
+        cout<<"\n   Viteza in fth="; cin>>i;
+        cout<<"\n   Viteza in kmh="<<i*0.0003048;
+    }
+    void viteza::kmh_fth()
+    {
+        cout<<"\n   Viteza in kmh="; cin>>i;
+        cout<<"\n   Viteza in fth="<<i/0.0003048;
+    }
+    void viteza::kmh_kms()
+    {
+        cout<<"\n   Viteza in kmh="; cin>>i;
+        cout<<"\n   Viteza in kms="<<i/3600;
+    }
+    void viteza::kms_kmh()
+    {
+        cout<<"\n   Viteza in kms="; cin>>i;
+        cout<<"\n   Viteza in kmh="<<i*3600;
+    }
+    void viteza::kmh_mh()
+    {
+        cout<<"\n   Viteza in kmh="; cin>>i;
+        cout<<"\n   Viteza in mh="<<i*1000;
+    }
+        void viteza::mh_kmh()
+    {
+        cout<<"\n   Viteza in mh="; cin>>i;
+        cout<<"\n   Viteza in kmh="<<i/1000;
+    }
+        void viteza::kmh_milh()
+    {
+        cout<<"\n   Viteza in kmh="; cin>>i;
+        cout<<"\n   Viteza in milh="<<i/1.6;
+    }
+        void viteza::milh_kmh()
+    {
+        cout<<"\n   Viteza in milh="; cin>>i;
+        cout<<"\n   Viteza in kmh="<<i*1.6;
+    }
+        void viteza::kmh_ydh()
+    {
+        cout<<"\n   Viteza in kmh="; cin>>i;
+        cout<<"\n   Viteza in ydh="<<i*1093.6133;
+    }
+     void viteza::ydh_kmh()
+    {
+        cout<<"\n   Viteza in ydh="; cin>>i;
+        cout<<"\n   Viteza in kmh="<<i/1093.6133;
+    }
