@@ -1,0 +1,60 @@
+void timp::ore_min()
+    {
+        cout<<"\n   Ore="; cin>>i;
+        cout<<"\n   Minute="<<i*60;
+    }
+    void timp::min_ore()
+    {
+        cout<<"\n   Minute="; cin>>i;
+        cout<<"\n   Ore="<<i/60;
+    }
+    void timp::min_sec()
+    {
+        cout<<"\n   Minute="; cin>>i;
+        cout<<"\n   Secunde="<<i*60;
+    }
+    void timp::sec_min()
+    {
+        cout<<"\n    Secunde="; cin>>i;
+        cout<<"\n    Minute="<<i/60;
+    }
+    void timp::ore_sec()
+    {
+        cout<<"\n   Ore="; cin>>i;
+        cout<<"\n   Secunde="<<i*3600;
+    }
+    void timp::sec_ore()
+    {
+        cout<<"\n   Secunde="; cin>>i;
+        cout<<"\n   Ore="<<i/3600;
+    }
+    void timp::zile_min()
+    {
+        cout<<"\n   Zile="; cin>>i;
+        cout<<"\n   Minute="<<i*24*60;
+    }
+    void timp::zile_ore()
+    {
+        cout<<"\n   Zile="; cin>>i;
+        cout<<"\n   Ore="<<i*24;
+    }
+    void timp::zile_sec()
+    {
+        cout<<"\n   Zile="; cin>>i;
+        cout<<"\n   Secunde="<<i*24*3600;
+    }
+     void timp::ore_zile()
+    {
+        cout<<"\n   Ore="; cin>>i;
+        cout<<"\n   Zile="<<i/24;
+    }
+    void timp::min_zile()
+    {
+        cout<<"\n   Minute="; cin>>i;
+        cout<<"\n   Zile="<<i/60/24;
+    }
+    void timp::sec_zile()
+    {
+        cout<<"\n   Secunde="; cin>>i;
+        cout<<"\n   Zile="<<i/3600/24;
+    }
