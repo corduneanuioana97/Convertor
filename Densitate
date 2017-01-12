@@ -1,0 +1,50 @@
+void densitate::kg_g()
+    {
+        cout<<"kg/m^3="; cin>>i;
+        cout<<"g/m^3="<<i*1000;
+    }
+    void densitate::kg_lb()
+    {
+        cout<<"kg/m^3="; cin>>i;
+        cout<<"lb/ft^3="<<i*0.06243;
+    }
+    void densitate::kg_oz()
+    {
+        cout<<"kg/m^3="; cin>>i;
+        cout<<"oz/ft^3="<<i*0.9988;
+    }
+    void densitate::g_kg()
+    {
+        cout<<"g/m^3="; cin>>i;
+        cout<<"kg/m^3="<<i/1000;
+    }
+    void densitate::lb_kg()
+    {
+        cout<<"lb/ft^3="; cin>>i;
+        cout<<"kg/m^3="<<i/0.06243;
+    }
+    void densitate::lb_oz()
+    {
+        cout<<"lb/ft^3="; cin>>i;
+        cout<<"oz/ft^3="<<i*15.9994;
+    }
+    void densitate::lb_g()
+    {
+        cout<<"lb/ft^3="; cin>>i;
+        cout<<"g/m^3="<<i*16017.94;
+    }
+    void densitate::oz_kg()
+    {
+        cout<<"oz/ft^3="; cin>>i;
+        cout<<"kg/m^3="<<i/0.9988;
+    }
+    void densitate::oz_lb()
+    {
+        cout<<"oz/ft^3="; cin>>i;
+        cout<<"lb/ft^3="<<i/15.9994;
+    }
+    void densitate::oz_g()
+    {
+        cout<<"oz/ft^3="; cin>>i;
+        cout<<"g/m^3="<<i*1001.15;
+    }
