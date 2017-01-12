@@ -1,0 +1,60 @@
+  void presiune::atm_Pa()
+    {
+        cout<<"Atmosfere="; cin>>i;
+        cout<<"Pascali="<<i*101325.273;
+    }
+     void presiune::atm_bar()
+    {
+        cout<<"Atmosfere="; cin>>i;
+        cout<<"Bar="<<i*1.03393;
+    }
+    void presiune::atm_mmhg()
+    {
+        cout<<"Atmosfere="; cin>>i;
+        cout<<"Bar="<<i*760.002;
+    }
+    void presiune::bar_atm()
+    {
+        cout<<"Bar="; cin>>i;
+        cout<<"Atmosfere="<<i/1.03393;
+    }
+    void presiune::bar_Pa()
+    {
+        cout<<"Bar="; cin>>i;
+        cout<<"Pascal="<<i*98000;
+    }
+    void presiune::bar_mmhg()
+    {
+        cout<<"Bar="; cin>>i;
+        cout<<"mmHg="<<i*735.060;
+    }
+    void presiune::Pa_mmhg()
+    {
+        cout<<"Pascal="; cin>>i;
+        cout<<"mmHg="<<i*0.0075;
+    }
+    void presiune::Pa_bar()
+    {
+        cout<<"Pascal="; cin>>i;
+        cout<<"bar="<<i/98000;
+    }
+    void presiune::Pa_atm()
+    {
+        cout<<"Pascal="; cin>>i;
+        cout<<"atmosfere="<<i/101325.273;
+    }
+    void presiune::mmhg_Pa()
+    {
+        cout<<"mmhg="; cin>>i;
+        cout<<"Pascal="<<i/0.0075;
+    }
+    void presiune::mmhg_bar()
+    {
+        cout<<"mmhg="; cin>>i;
+        cout<<"Bar="<<i/735.060;
+    }
+    void presiune::mmhg_atm()
+    {
+        cout<<"mmhg="; cin>>i;
+        cout<<"Bar="<<i/760.002;
+    }
